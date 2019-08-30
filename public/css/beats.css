@@ -1,0 +1,152 @@
+:root {
+  --beatsbgcolor: rgb(61, 61, 61);
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+#main-page {
+  width: 100%;
+  height: 120%;
+  background-color: var(--beatsbgcolor);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#beats-data {
+  width: 90%;
+  height: 100%;
+  background-color: rgb(105, 105, 105);
+  margin-top: 20px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.beat {
+  font-family: "Questrial", sans-serif;
+  font-weight: 100;
+}
+
+.player {
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 20px;
+  width: 250px;
+  height: 375px;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.cover-art {
+  width: 250px;
+  height: 250px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.beat-name {
+  height: 25px;
+  background-color: var(--pal1);
+  display: flex;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  justify-content: center;
+  font-family: 'Dosis', sans-serif;
+  font-size: 15px;
+  align-items: center;
+}
+.controls {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--pal1);
+  height: 50px;
+  user-select: none;
+}
+
+.play-pause {
+  width: 50px;
+  height: 50px;
+  transform: scale(0.75);
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: var(--pal1);
+  border: 2px solid rgba(255, 51, 0, 0.788);
+}
+
+.play-pause:hover {
+  border: 2px solid rgba(255, 51, 0, 1)
+}
+
+.track-slider {
+  width: 175px;
+  height: 5px;
+  background-color: rgb(224, 223, 223);
+  margin-right: 15px;
+  display: flex;
+  border-radius: 5px;
+}
+
+.track-slider-fill {
+  height: 100%;
+  background-color: var(--pal2);
+  border-radius: 5px;
+}
+
+.track-slider-handle {
+  width: 5px;
+  height: 5px;
+  background-color: var(--pal2);
+  transform: scale(3);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.purchase {
+  height: 50px;
+  background-color: var(--pal1);
+  width: 100%;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  display:flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.purchase-button {
+  height: 40px;
+  width: 40%;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  font-family: "Questrial", sans-serif;
+  transition: all 0.1s;
+  color: var(--pal4);
+  background-color: transparent;
+  border: 1px solid var(--pal4);
+  cursor: pointer;
+}
+
+.purchase-button:hover {
+  color: var(--pal1);
+  background-color: var(--pal4);
+  transform: scale(1.05);
+}
+.purchase-text {
+  font-size: 20px;
+  user-select: none;
+
+}

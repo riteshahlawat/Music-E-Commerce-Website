@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />    
+    <title>Beats</title>
+    <link rel="stylesheet" href="css/style.css" />
+   <!--Font Styles-->
+   <link href="https://fonts.googleapis.com/css?family=Lato:400,400i" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Questrial&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Comfortaa:700&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Dosis:300&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
+   <!--jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!--Scroll Magic GSAP related-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenLite.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineLite.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/plugins/CSSPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/plugins/BezierPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <!--Mobile detection-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mobile-detect/1.4.3/mobile-detect.min.js"></script>
+    <!--React, Babel, Axios-->
+    <script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/06b19a2978.js"></script>
+    <!-- Stripe Checkout -->
+    <script src="https://js.stripe.com/v3/"></script>
+    </head>
+  <body>
+    <nav>
+      <div class="logo"><h4>SinghsBeats</h4></div>
+        <ul class="nav-links">
+          <li><a href="./">Home</a></li>
+          <li><a href="./about">About</a></li>
+          <li><a href="./beats">Beats</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+      </div>
+    </nav>
+    <section id="main-page">
+      
+      <div id="beats-data">
+          
+      </div>
+    </section>
+    
+    <script type="text/babel" src="./js/beatstore.js"></script>
+    <script src="./js/navbar.js"></script>
+  </body>
+</html>

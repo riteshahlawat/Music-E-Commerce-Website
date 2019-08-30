@@ -1,0 +1,147 @@
+#parallax1 {
+  height: calc(100vh + var(--navbar-height));
+  padding: 40px 0;
+  position: relative;
+  overflow: hidden;
+  background-color: black;
+  margin-top: calc(var(--navbar-height) * -1);
+}
+#img-particles {
+  background-image: url("https://i.postimg.cc/6phCBpnF/blurbg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  height: 140%;
+  top: 0;
+  z-index: 1;
+  opacity: 1;
+}
+@font-face {
+  font-family: trapfont;
+  src: url(../fonts/trapfont.TTF) format("truetype");
+}
+@font-face {
+  font-family: hiphopfont;
+  src: url(../fonts/hiphopfont.ttf) format("truetype");
+}
+@font-face {
+  font-family: lyricalfont;
+  src: url(../fonts/lyricalfont.otf) format("truetype");
+}
+@font-face {
+  font-family: lofifont;
+  src: url(../fonts/lofifont.ttf) format("truetype");
+}
+#description-sections {
+  display: flex;
+  flex-direction: column;
+}
+.description-panel {
+  width: 100%;
+  height: 140vh;
+  position: relative;
+}
+#trap {
+  background-image: url("https://www.elsetge.cat/myimg/f/82-828900_see-trap-metal-artist-scarlxrd-rage-in-gritty.png");
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(6, 29, 92, 0.22);
+  background-blend-mode: multiply;
+}
+#hip-hop {
+  background-image: url("https://i.postimg.cc/qBngXgZK/hiphop.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#lyrical {
+  background-image: url("https://stmed.net/sites/default/files/eminem-wallpapers-30352-1029742.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#lofi {
+  background-image: url("https://wallpapercave.com/wp/wp2336999.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(6, 29, 92, 0.25);
+  background-blend-mode: multiply;
+}
+@media (max-width: 768px) {
+  #lyrical {
+    background-position: -45vw, 0px;
+  }
+}
+.description-clip {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.95);
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+}
+
+#trap-clip {
+  clip-path: polygon(0 86%, 100% 50%, 100% 100%, 0 100%);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  overflow: hidden;
+}
+#trap-clip h2 {
+  color: white;
+  font-family: trapfont;
+  font-size: calc(100px + 10vw);
+  letter-spacing: 0.05em;
+}
+#hip-hop-clip {
+  clip-path: polygon(0 50%, 100% 86%, 100% 100%, 0 100%);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+  overflow: hidden;
+}
+
+#hip-hop-clip h2 {
+  color: white;
+  font-family: hiphopfont;
+  font-size: calc(70px + 10vw);
+  letter-spacing: 0.05em;
+}
+
+#lyrical-clip {
+  clip-path: polygon(0 86%, 100% 50%, 100% 100%, 0 100%);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  overflow: hidden;
+}
+#lyrical-clip h2 {
+  color: white;
+  font-family: lyricalfont;
+  font-size: calc(80px + 10vw);
+  letter-spacing: 0.05em;
+  margin-right: calc(40px + 12vw);
+}
+#lofi-clip {
+  clip-path: polygon(0 50%, 100% 86%, 100% 100%, 0 100%);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+  overflow: hidden;
+}
+
+#lofi-clip h2 {
+  color: white;
+  font-family: lofifont;
+  font-size: calc(150px + 11vw);
+  letter-spacing: 0.05em;
+}
+
+

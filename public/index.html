@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>My Website</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <!--Font Styles-->
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Questrial&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dosis:300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
+    <!--jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!--Scroll Magic GSAP related-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenLite.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineLite.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/plugins/CSSPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/plugins/BezierPlugin.min.js"></script>
+    <!--Particles.js-->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <!--Mobile detection-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mobile-detect/1.4.3/mobile-detect.min.js"></script>
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/06b19a2978.js"></script>
+  </head>
+  <body>
+    <nav>
+      <div class="logo"><h4>SinghsBeats</h4></div>
+        <ul class="nav-links">
+          <li><a href="./">Home</a></li>
+          <li><a href="./about">About</a></li>
+          <li><a href="./beats">Beats</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+      </div> 
+    </nav>
+    <div id="parallax1">
+      <div id="img-particles">
+      </div>        
+    </div> 
+    <div id="description-sections">
+      <div id="traptrigger"></div>
+      <div class="description-panel" id="trap">
+        <div id="trap-clip" class="description-clip">
+          <div id="traptexttrigger"></div>
+          <h2 id="traptext">
+            Trap
+          </h2>
+        </div>
+        
+      </div>
+      <div class="description-panel" id="hip-hop">
+        <div id="hip-hop-clip" class="description-clip">
+          <h2 id="hiphoptext">
+            Hip Hop
+          </h2>
+        </div>
+      </div>
+      <div class="description-panel" id="lyrical">
+        <div id="lyrical-clip" class="description-clip">
+          <h2 id="lyricaltext">
+            Lyrical
+          </h2>
+        </div>
+      </div>
+      <div class="description-panel" id="lofi">
+        <div id="lofi-clip" class="description-clip">
+          <h2 id="lofitext">
+            Lo-Fi
+          </h2>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div id="footer-main">
+        <div id="footer-content">
+          <div class="footer-section">
+            <h3>
+              Support
+            </h3>
+            <div class="footer-section-links">
+              <a href="./terms-of-service">Terms & Conditions</a>
+              <a href="./privacy-policy">Privacy Policy</a>
+            </div>
+          </div>
+          <div class="footer-section">
+            <h3>
+              SinghsBeats Social
+            </h3>
+            <div class="footer-section-links">
+              <div class="footer-social-links">
+                <a href="https://www.instagram.com/singhsbeats/" target="_blank">
+                  <i class="fab fa-instagram"></i>
+                </a> 
+                <a id="mail" href="mailto:singhsbeats@gmail.com">
+                  <i class="fas fa-envelope"></i>
+                </a> 
+                <a id="twitter" href="https://twitter.com/singhsbeats" target="_blank">
+                  <i class="fab fa-twitter"></i>
+                </a> 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="footer-copyright">
+        <h3>
+          Copyright @ 2019 SinghsBeats. All rights reserved• Version: 1.0
+        </h3>
+      </div>
+    </footer>
+    <script src="./js/navbar.js"></script>
+    <script src="./js/homeparallax.js"></script>
+    <script src="./js/homeparticle.js"></script>
+  </body>
+</html>
