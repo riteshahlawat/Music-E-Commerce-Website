@@ -13,8 +13,7 @@ Almost! All that's left is sending emails with a link to the products to downloa
 # Demonstrations!!
 
 ### Main Page
-![Main Page](https://media.giphy.com/media/eGNk4jt5XlE9ub8687/giphy.gif)
-
+[![ezgif-com-video-to-gif.gif](https://i.postimg.cc/Y0XBp8Cq/ezgif-com-video-to-gif.gif)](https://postimg.cc/ZvyMH8N1)
 ### ReactJS Data Loading
 ![React Loading](https://i.postimg.cc/bvVchZGQ/ezgif-com-video-to-gif.gif)
 
