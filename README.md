@@ -1,12 +1,12 @@
 # What is this?
 This is an Ecommerce Website for selling music.
 # What does it use?
-GSAP and ScrollMagic for scrolling effects
-ParticleJS for particle effects
-Stripe for payment
-MySQL for data storage 
-Axios for data retrieval
-ReactJS for displaying
+- GSAP and ScrollMagic for scrolling effects <br />
+- ParticleJS for particle effects <br />
+- Stripe for payment <br />
+- MySQL for data storage <br />
+- Axios for data retrieval <br />
+- ReactJS for displaying
 # Is it finished?
 Almost! All that's left is sending emails with a link to the products to download when someone has made a purchase
 
